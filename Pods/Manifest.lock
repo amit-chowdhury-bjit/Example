@@ -1,0 +1,16 @@
+PODS:
+  - EDiOSAppUpdate (1.0.2)
+
+DEPENDENCIES:
+  - EDiOSAppUpdate (= 1.0.2)
+
+SPEC REPOS:
+  trunk:
+    - EDiOSAppUpdate
+
+SPEC CHECKSUMS:
+  EDiOSAppUpdate: 29bc2f7db0bbe5018a0a907823c3e7df5806feb3
+
+PODFILE CHECKSUM: 94e0e6db648ea8ddc96047f9b9ca91d096903fca
+
+COCOAPODS: 1.11.3

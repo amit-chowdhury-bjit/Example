@@ -1,0 +1,6 @@
+framework module EDiOSAppUpdate {
+  umbrella header "EDiOSAppUpdate-umbrella.h"
+
+  export *
+  module * { export * }
+}
