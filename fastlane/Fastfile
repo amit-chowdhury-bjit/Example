@@ -1,0 +1,76 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+# default_platform(:ios)
+
+# platform :ios do
+#   desc "Description of what the lane does"
+#   lane :custom_lane do
+#     # add actions here: https://docs.fastlane.tools/actions
+#   end
+# end
+
+default_platform(:ios)
+platform :ios do
+  desc "Description of what the lane does"
+  lane :appcenter_release do
+  #   generate_ipa_develop
+  #   appcenter_upload(
+  #     api_token: ENV['APPCENTER_KEY'],
+  #     owner_name: ENV['APPCENTER_OWNER'],
+  #     app_name: ENV['APPCENTER_APPNAME'],
+  #     file: ENV['IPA_PATH'],
+  #     notify_testers: true,
+  #     destinations: ENV['APPCENTER_DESTINATION']
+  #   )
+  #   clean_build_artifacts
+  # end
+
+
+  #pod_install
+  build_ios_app(
+    workspace: "Example.xcworkspace",
+   
+  #configuration: "Debug",
+    configuration: "Release",
+    scheme: "appupdate",
+    silent: true,
+    clean: true,
+  
+    output_directory: "../builds/", 
+  # Destination directory. Defaults to current directory.
+  
+    output_name: "appupdate.ipa",       
+  # specify the name of the .ipa file to generate (including file extension)
+    include_bitcode: true,
+  #export_method: "development"
+  export_method: "ad-hoc",
+  export_xcargs: "-allowProvisioningUpdates"
+  )
+  
+  # crashlytics_auto
+  
+  end
+  lane :generate_ipa_develop do
+    build_ios_app(
+      configuration: "Debug",
+      scheme: "Test",
+      clean: true,
+      export_method: 'development',
+      output_directory: "~/Desktop/build/", # Destination directory. Defaults to current directory.
+      output_name: "appupdate.ipa"
+    )
+  end
+end
