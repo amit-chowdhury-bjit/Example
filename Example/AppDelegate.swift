@@ -6,7 +6,7 @@
 //
 
 import UIKit
-//import EDiOSAppUpdate
+import EDiOSAppUpdate
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,22 +19,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-//        let appVersion = AppVersion.shared
-//        appVersion.alertsEnabled = true //  UI alerts, presenting update options
-//        appVersion.alertType = .skippable // UI alert to include "Skip" button
-//        appVersion.neverEnabled = true // UI alert to include "Never" butoon
-//        appVersion.alertPresentationStyle = .actionSheet // UI presented as an actionSheet
-//        appVersion.checkBeforeUpdatePresented = { //present UI only if App Store version has more than 1 review and average rating is higher than 3
-//            print(appVersion.appStoreVersionInfo?.version ?? "1.0.0")
-//            print(AppInfo.shortVersion)
-//            
-//            return appVersion.appStoreVersionInfo?.version ??  AppInfo.shortVersion > AppInfo.shortVersion
-//            
-//            //(self.appVersion.appStoreVersionInfo?.ratingsCount ?? 0) > 1
-//           // && (self.appVersion.appStoreVersionInfo?.averageRating ?? 0) > 3
-//        }
-//
-//        appVersion.run()
+        let appVersion = AppVersion.shared
+        appVersion.alertsEnabled = true //  UI alerts, presenting update options
+        appVersion.alertType = .skippable // UI alert to include "Skip" button
+        appVersion.neverEnabled = true // UI alert to include "Never" butoon
+        appVersion.alertPresentationStyle = .actionSheet // UI presented as an actionSheet
+        appVersion.checkBeforeUpdatePresented = { //present UI only if App Store version has more than 1 review and average rating is higher than 3
+            print(appVersion.appStoreVersionInfo?.version ?? "1.0.0")
+            print(AppInfo.shortVersion)
+            
+            return appVersion.appStoreVersionInfo?.version ??  AppInfo.shortVersion > AppInfo.shortVersion
+            
+            //(self.appVersion.appStoreVersionInfo?.ratingsCount ?? 0) > 1
+           // && (self.appVersion.appStoreVersionInfo?.averageRating ?? 0) > 3
+        }
+
+        appVersion.run()
         
         return true
     }
