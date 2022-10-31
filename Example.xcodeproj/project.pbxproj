@@ -356,6 +356,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE2CE303CC4F8CCB5E6B7C42 /* Pods-TestBuild.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -387,6 +391,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FAE9FCD64F91CC8F6C83B18C /* Pods-TestBuild.release.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
