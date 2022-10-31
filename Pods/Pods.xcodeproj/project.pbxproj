@@ -11,16 +11,16 @@
 		2435D6EAAE03C2083ECC8BD2A2D46EBF /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F1F5D6D43E23A24F5CE5CF45A7F93 /* AppInfo.swift */; };
 		286E132403C0685C5C31527E286CB244 /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99283076EE2F1762F2E34F1B1AD57D57 /* AppVersion.swift */; };
 		2F3CB171F097537EEA4157B18234773F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5E9B1A4881A9363C8379E077A62142DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6B56753426B5A7F1F4C5BD0AA90C998A /* Pods-TestBuild-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F03518FA063E0C3B838479EA3214DC /* Pods-TestBuild-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F0A24306B348E3D607E6535379EA1C3 /* Pods-3D-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 922386F8282F8FD2D487D1260B38779D /* Pods-3D-dummy.m */; };
 		76671954DDE36051D8AA6560539BB3D1 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A23D766227D14BCAE0506A32F80E4F3 /* Version.swift */; };
-		B99F81E4F3AF3510BD76C0B67E426727 /* Pods-TestBuild-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A37FC4857EE4972A027DEE869C657F8F /* Pods-TestBuild-dummy.m */; };
+		DD577E41700FEC45681B7D21473A4E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E4A0053E3FD1549C6DE1C88D5170F4B1 /* EDiOSAppUpdate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAE38C21732598AF80C1B2F24D50C9 /* EDiOSAppUpdate-dummy.m */; };
+		F8FAFC20EF603D06CDD5D216DDBD7F6B /* Pods-3D-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF19F791D40DF3CC0872B617491032A0 /* Pods-3D-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD3E60F42026A00BC782E0A08F7D44D8 /* EDiOSAppUpdate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D47B9FD4F9F560BD1406099EAA7C76 /* EDiOSAppUpdate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F8BB08BB4560ACD51A456D6A05AD980 /* PBXContainerItemProxy */ = {
+		F2A6B6C72EF92C59C32F8668B8FBC6EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -30,38 +30,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08F03518FA063E0C3B838479EA3214DC /* Pods-TestBuild-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestBuild-umbrella.h"; sourceTree = "<group>"; };
+		0C50FCB03683ED2A9FE869B2CA3B1792 /* Pods-3D-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-3D-acknowledgements.markdown"; sourceTree = "<group>"; };
 		17A70B8FEC2E853F85066EB8B4A00949 /* EDiOSAppUpdate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EDiOSAppUpdate.modulemap; sourceTree = "<group>"; };
+		191EAE9ECA925635106748F66F97AB78 /* Pods-3D-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-3D-frameworks.sh"; sourceTree = "<group>"; };
 		1A23D766227D14BCAE0506A32F80E4F3 /* Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Version.swift; path = EDiOSAppUpdate/Source/Version.swift; sourceTree = "<group>"; };
+		1AFDC7D73514E569CB608F23D7C350E3 /* Pods-3D-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-3D-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B6754BF830A4ECD75E8689C8FC66AE5 /* Pods-3D */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-3D"; path = Pods_3D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D8262DC50875B5D07FC003486146ED /* Pods-3D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-3D.release.xcconfig"; sourceTree = "<group>"; };
 		2359CEED0F1C12424633C7A30126A675 /* EDiOSAppUpdate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EDiOSAppUpdate.debug.xcconfig; sourceTree = "<group>"; };
-		397F504A5B0304E8BF0E2DA2DA478E6A /* Pods-TestBuild-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestBuild-acknowledgements.plist"; sourceTree = "<group>"; };
-		47610C0D7C00552F9A3506592B13A713 /* Pods-TestBuild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBuild.release.xcconfig"; sourceTree = "<group>"; };
 		52D47B9FD4F9F560BD1406099EAA7C76 /* EDiOSAppUpdate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EDiOSAppUpdate-umbrella.h"; sourceTree = "<group>"; };
 		559DCB96944AD9F5A5B7E4E37F4F11A9 /* AppStoreVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppStoreVersion.swift; path = EDiOSAppUpdate/Source/AppStoreVersion.swift; sourceTree = "<group>"; };
-		5B0AA6369D63565CA906676C718E2783 /* Pods-TestBuild-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestBuild-frameworks.sh"; sourceTree = "<group>"; };
-		5E088685EF881E79EFC195A1F1E55EB7 /* Pods-TestBuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBuild.debug.xcconfig"; sourceTree = "<group>"; };
 		6A11614B949D416FDC05FB4ED00E545E /* EDiOSAppUpdate */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EDiOSAppUpdate; path = EDiOSAppUpdate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76F01E9871FC2B6793B9951B608F5FA2 /* Pods-TestBuild-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestBuild-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D32637169968B13EBC373FD7CB2ABF6 /* EDiOSAppUpdate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EDiOSAppUpdate-prefix.pch"; sourceTree = "<group>"; };
-		9231402C06D240E0D16AA9018C5F633B /* Pods-TestBuild.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestBuild.modulemap"; sourceTree = "<group>"; };
+		922386F8282F8FD2D487D1260B38779D /* Pods-3D-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-3D-dummy.m"; sourceTree = "<group>"; };
 		99283076EE2F1762F2E34F1B1AD57D57 /* AppVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppVersion.swift; path = EDiOSAppUpdate/Source/AppVersion.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A37FC4857EE4972A027DEE869C657F8F /* Pods-TestBuild-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestBuild-dummy.m"; sourceTree = "<group>"; };
 		A85F1F5D6D43E23A24F5CE5CF45A7F93 /* AppInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppInfo.swift; path = EDiOSAppUpdate/Source/AppInfo.swift; sourceTree = "<group>"; };
+		C0BB497CE51B3DD61D6551D099313E8C /* Pods-3D-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-3D-Info.plist"; sourceTree = "<group>"; };
+		C2FB9C1EBDBC82B80440795C4A320D23 /* Pods-3D.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-3D.modulemap"; sourceTree = "<group>"; };
+		CF19F791D40DF3CC0872B617491032A0 /* Pods-3D-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-3D-umbrella.h"; sourceTree = "<group>"; };
 		D90B2545367B0821CB50FD9279362B2F /* EDiOSAppUpdate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EDiOSAppUpdate-Info.plist"; sourceTree = "<group>"; };
-		DF819380E1D7EC5F4C1BCB9B36A2C01C /* Pods-TestBuild */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestBuild"; path = Pods_TestBuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E78EFEB73EF06605E91A8697FD3254AB /* Pods-TestBuild-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestBuild-Info.plist"; sourceTree = "<group>"; };
 		E88B1E4569CC4A0F4923F0E10B4996EF /* EDiOSAppUpdate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EDiOSAppUpdate.release.xcconfig; sourceTree = "<group>"; };
 		FCFAE38C21732598AF80C1B2F24D50C9 /* EDiOSAppUpdate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EDiOSAppUpdate-dummy.m"; sourceTree = "<group>"; };
+		FFC4E2A514D3BFBC7796617EE112B96E /* Pods-3D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-3D.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49021E3E5B3761BE4FE9AD480B0A9E8C /* Frameworks */ = {
+		2E11B02C96EA529430A928FD14157E13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9B1A4881A9363C8379E077A62142DD /* Foundation.framework in Frameworks */,
+				DD577E41700FEC45681B7D21473A4E0F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048E391E32236BDDB435623FEBBBEDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A11614B949D416FDC05FB4ED00E545E /* EDiOSAppUpdate */,
+				1B6754BF830A4ECD75E8689C8FC66AE5 /* Pods-3D */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,30 +93,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		73882CAD98B4D3842F72AAEC3E7E0F75 /* Products */ = {
+		61AEEC915EC684EAD6089FF55352EA33 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6A11614B949D416FDC05FB4ED00E545E /* EDiOSAppUpdate */,
-				DF819380E1D7EC5F4C1BCB9B36A2C01C /* Pods-TestBuild */,
+				D7912D34BC7968ADA77EC7BC40AFC633 /* Pods-3D */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7A4F6F083371B9462DB88A756436CC63 /* Pods-TestBuild */ = {
-			isa = PBXGroup;
-			children = (
-				9231402C06D240E0D16AA9018C5F633B /* Pods-TestBuild.modulemap */,
-				76F01E9871FC2B6793B9951B608F5FA2 /* Pods-TestBuild-acknowledgements.markdown */,
-				397F504A5B0304E8BF0E2DA2DA478E6A /* Pods-TestBuild-acknowledgements.plist */,
-				A37FC4857EE4972A027DEE869C657F8F /* Pods-TestBuild-dummy.m */,
-				5B0AA6369D63565CA906676C718E2783 /* Pods-TestBuild-frameworks.sh */,
-				E78EFEB73EF06605E91A8697FD3254AB /* Pods-TestBuild-Info.plist */,
-				08F03518FA063E0C3B838479EA3214DC /* Pods-TestBuild-umbrella.h */,
-				5E088685EF881E79EFC195A1F1E55EB7 /* Pods-TestBuild.debug.xcconfig */,
-				47610C0D7C00552F9A3506592B13A713 /* Pods-TestBuild.release.xcconfig */,
-			);
-			name = "Pods-TestBuild";
-			path = "Target Support Files/Pods-TestBuild";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		923738CAEE5BA20FD63C126ADCA2FA54 /* Support Files */ = {
@@ -123,14 +114,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/EDiOSAppUpdate";
-			sourceTree = "<group>";
-		};
-		B5A17F2AF304DD735EC6FE28E0CDFBB3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7A4F6F083371B9462DB88A756436CC63 /* Pods-TestBuild */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF01DDD5E584891AD75D26BA45941C55 /* EDiOSAppUpdate */ = {
@@ -152,8 +135,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D378A92A443D2DB37A257015C93450BB /* Pods */,
-				73882CAD98B4D3842F72AAEC3E7E0F75 /* Products */,
-				B5A17F2AF304DD735EC6FE28E0CDFBB3 /* Targets Support Files */,
+				048E391E32236BDDB435623FEBBBEDAB /* Products */,
+				61AEEC915EC684EAD6089FF55352EA33 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,14 +156,31 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D7912D34BC7968ADA77EC7BC40AFC633 /* Pods-3D */ = {
+			isa = PBXGroup;
+			children = (
+				C2FB9C1EBDBC82B80440795C4A320D23 /* Pods-3D.modulemap */,
+				0C50FCB03683ED2A9FE869B2CA3B1792 /* Pods-3D-acknowledgements.markdown */,
+				1AFDC7D73514E569CB608F23D7C350E3 /* Pods-3D-acknowledgements.plist */,
+				922386F8282F8FD2D487D1260B38779D /* Pods-3D-dummy.m */,
+				191EAE9ECA925635106748F66F97AB78 /* Pods-3D-frameworks.sh */,
+				C0BB497CE51B3DD61D6551D099313E8C /* Pods-3D-Info.plist */,
+				CF19F791D40DF3CC0872B617491032A0 /* Pods-3D-umbrella.h */,
+				FFC4E2A514D3BFBC7796617EE112B96E /* Pods-3D.debug.xcconfig */,
+				22D8262DC50875B5D07FC003486146ED /* Pods-3D.release.xcconfig */,
+			);
+			name = "Pods-3D";
+			path = "Target Support Files/Pods-3D";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		58615824726203EBBC94AC91F3C02404 /* Headers */ = {
+		5CAC569F3EC8E788169FE3E49DD8DE02 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B56753426B5A7F1F4C5BD0AA90C998A /* Pods-TestBuild-umbrella.h in Headers */,
+				F8FAFC20EF603D06CDD5D216DDBD7F6B /* Pods-3D-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,23 +195,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1DBE1AD05DB9B56B7709D84163F353AF /* Pods-TestBuild */ = {
+		68721FD628BDBD94040D76411F687B22 /* Pods-3D */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 096E8DE9702E0D2EB7AC7B3B93B04FBB /* Build configuration list for PBXNativeTarget "Pods-TestBuild" */;
+			buildConfigurationList = 91B0CE897304E9F03D915B1D84078D10 /* Build configuration list for PBXNativeTarget "Pods-3D" */;
 			buildPhases = (
-				58615824726203EBBC94AC91F3C02404 /* Headers */,
-				63BCBAE10113A10B330A646CD269B94B /* Sources */,
-				49021E3E5B3761BE4FE9AD480B0A9E8C /* Frameworks */,
-				5678471FF091298D60D327775B469D59 /* Resources */,
+				5CAC569F3EC8E788169FE3E49DD8DE02 /* Headers */,
+				AAB2898BB7E3970A2CF984CA608DDAEA /* Sources */,
+				2E11B02C96EA529430A928FD14157E13 /* Frameworks */,
+				BFF85F44E60C2EAA449D08BFA1129624 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1410583D9F2626FD086CD1B75949386B /* PBXTargetDependency */,
+				AD300CA8467B3FD301DB09BAB0D8CF29 /* PBXTargetDependency */,
 			);
-			name = "Pods-TestBuild";
-			productName = Pods_TestBuild;
-			productReference = DF819380E1D7EC5F4C1BCB9B36A2C01C /* Pods-TestBuild */;
+			name = "Pods-3D";
+			productName = Pods_3D;
+			productReference = 1B6754BF830A4ECD75E8689C8FC66AE5 /* Pods-3D */;
 			productType = "com.apple.product-type.framework";
 		};
 		F2D5DBEFF42BBFBFDBFB115BDCEE6DD3 /* EDiOSAppUpdate */ = {
@@ -250,25 +250,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 73882CAD98B4D3842F72AAEC3E7E0F75 /* Products */;
+			productRefGroup = 048E391E32236BDDB435623FEBBBEDAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F2D5DBEFF42BBFBFDBFB115BDCEE6DD3 /* EDiOSAppUpdate */,
-				1DBE1AD05DB9B56B7709D84163F353AF /* Pods-TestBuild */,
+				68721FD628BDBD94040D76411F687B22 /* Pods-3D */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5678471FF091298D60D327775B469D59 /* Resources */ = {
+		8D1F631CF9077F495CE548EF371D75C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D1F631CF9077F495CE548EF371D75C1 /* Resources */ = {
+		BFF85F44E60C2EAA449D08BFA1129624 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,31 +290,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63BCBAE10113A10B330A646CD269B94B /* Sources */ = {
+		AAB2898BB7E3970A2CF984CA608DDAEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B99F81E4F3AF3510BD76C0B67E426727 /* Pods-TestBuild-dummy.m in Sources */,
+				4F0A24306B348E3D607E6535379EA1C3 /* Pods-3D-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1410583D9F2626FD086CD1B75949386B /* PBXTargetDependency */ = {
+		AD300CA8467B3FD301DB09BAB0D8CF29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EDiOSAppUpdate;
 			target = F2D5DBEFF42BBFBFDBFB115BDCEE6DD3 /* EDiOSAppUpdate */;
-			targetProxy = 1F8BB08BB4560ACD51A456D6A05AD980 /* PBXContainerItemProxy */;
+			targetProxy = F2A6B6C72EF92C59C32F8668B8FBC6EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		220776FABD7EFE2E154ED553C1476149 /* Release */ = {
+		5EC269ACF8D29B4BA8897A26B55A472D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47610C0D7C00552F9A3506592B13A713 /* Pods-TestBuild.release.xcconfig */;
+			baseConfigurationReference = 2359CEED0F1C12424633C7A30126A675 /* EDiOSAppUpdate.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+				);
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -324,61 +327,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestBuild/Pods-TestBuild-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/EDiOSAppUpdate/EDiOSAppUpdate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EDiOSAppUpdate/EDiOSAppUpdate-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestBuild/Pods-TestBuild.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/EDiOSAppUpdate/EDiOSAppUpdate.modulemap";
+				PRODUCT_MODULE_NAME = EDiOSAppUpdate;
+				PRODUCT_NAME = EDiOSAppUpdate;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		39649E5E2501FE0DD5D38F909E59BD23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E088685EF881E79EFC195A1F1E55EB7 /* Pods-TestBuild.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestBuild/Pods-TestBuild-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestBuild/Pods-TestBuild.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -451,10 +415,15 @@
 			};
 			name = Debug;
 		};
-		BDB3484B7C84D2FD0AB2219E04A1E7B8 /* Release */ = {
+		B96AD5C999DBF9AA02172366C0506491 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E88B1E4569CC4A0F4923F0E10B4996EF /* EDiOSAppUpdate.release.xcconfig */;
+			baseConfigurationReference = 22D8262DC50875B5D07FC003486146ED /* Pods-3D.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+				);
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -464,22 +433,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EDiOSAppUpdate/EDiOSAppUpdate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EDiOSAppUpdate/EDiOSAppUpdate-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-3D/Pods-3D-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/EDiOSAppUpdate/EDiOSAppUpdate.modulemap";
-				PRODUCT_MODULE_NAME = EDiOSAppUpdate;
-				PRODUCT_NAME = EDiOSAppUpdate;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-3D/Pods-3D.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -549,10 +519,14 @@
 			};
 			name = Release;
 		};
-		F407213AB7EDF12C20A1B0964280928E /* Debug */ = {
+		D86627D39820DC0831ACBEB7937A878C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2359CEED0F1C12424633C7A30126A675 /* EDiOSAppUpdate.debug.xcconfig */;
+			baseConfigurationReference = E88B1E4569CC4A0F4923F0E10B4996EF /* EDiOSAppUpdate.release.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+				);
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -579,6 +553,48 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF41A89231BD3585389D88AED7826077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC4E2A514D3BFBC7796617EE112B96E /* Pods-3D.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+				);
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-3D/Pods-3D-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-3D/Pods-3D.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -587,15 +603,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		096E8DE9702E0D2EB7AC7B3B93B04FBB /* Build configuration list for PBXNativeTarget "Pods-TestBuild" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39649E5E2501FE0DD5D38F909E59BD23 /* Debug */,
-				220776FABD7EFE2E154ED553C1476149 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -608,8 +615,17 @@
 		81306B3632AE598B12AD4009D400480A /* Build configuration list for PBXNativeTarget "EDiOSAppUpdate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F407213AB7EDF12C20A1B0964280928E /* Debug */,
-				BDB3484B7C84D2FD0AB2219E04A1E7B8 /* Release */,
+				5EC269ACF8D29B4BA8897A26B55A472D /* Debug */,
+				D86627D39820DC0831ACBEB7937A878C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B0CE897304E9F03D915B1D84078D10 /* Build configuration list for PBXNativeTarget "Pods-3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF41A89231BD3585389D88AED7826077 /* Debug */,
+				B96AD5C999DBF9AA02172366C0506491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
