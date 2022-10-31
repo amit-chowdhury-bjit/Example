@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		33EE0C718C624255F4112C9C /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		7164BD6AA77E0058555AB850 /* Pods_TestBuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89DF12E428F40AFF009E14DE /* TestBuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBuild.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DF12E428F40AFF009E14DE /* 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DF12E728F40AFF009E14DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89DF12E928F40AFF009E14DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		89DF12EB28F40AFF009E14DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		89DF12E528F40AFF009E14DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89DF12E428F40AFF009E14DE /* TestBuild.app */,
+				89DF12E428F40AFF009E14DE /* 3D.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89DF12E328F40AFF009E14DE /* TestBuild */ = {
+		89DF12E328F40AFF009E14DE /* 3D */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89DF12F828F40B00009E14DE /* Build configuration list for PBXNativeTarget "TestBuild" */;
+			buildConfigurationList = 89DF12F828F40B00009E14DE /* Build configuration list for PBXNativeTarget "3D" */;
 			buildPhases = (
 				4509F08896A8C630B067972D /* [CP] Check Pods Manifest.lock */,
 				89DF12E028F40AFF009E14DE /* Sources */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = TestBuild;
+			name = 3D;
 			productName = Example;
-			productReference = 89DF12E428F40AFF009E14DE /* TestBuild.app */;
+			productReference = 89DF12E428F40AFF009E14DE /* 3D.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89DF12E328F40AFF009E14DE /* TestBuild */,
+				89DF12E328F40AFF009E14DE /* 3D */,
 			);
 		};
 /* End PBXProject section */
@@ -378,7 +378,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 22.42.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com..amit.bjit.yelpiphone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.runningwheel.3Dwallpapers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -414,7 +414,7 @@
 				);
 				MARKETING_VERSION = 22.42.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com..amit.bjit.yelpiphone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.runningwheel.3Dwallpapers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -435,7 +435,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89DF12F828F40B00009E14DE /* Build configuration list for PBXNativeTarget "TestBuild" */ = {
+		89DF12F828F40B00009E14DE /* Build configuration list for PBXNativeTarget "3D" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89DF12F928F40B00009E14DE /* Debug */,
